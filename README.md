@@ -28,7 +28,8 @@ No mínimo, responda à estas perguntas:
 1.	Como e por que você selecionou as variáveis de previsão (veja texto suplementar) em seu modelo? Você deve explicar como as variáveis de previsão contínuas que você escolheu têm uma relação linear com a variável-alvo.  Consulte esta lição para ajudar você a explorar seus dados e usar gráficos de dispersão para procurar relações lineares.  Você deve incluir gráficos de dispersão em sua resposta.
 
 Escolhi a variável AVG_NUM_PRODUCTS_PURCHASED para o modelo, pois vemos uma linearidade positiva no gráfico de dispersão, com isso podemos assumir que quanto maior o número em AVG_NUM_PRODUCTS_PURCHASED, maior será nosso número em AVG_SALE_AMOUNT, variável está que queremos prever. Desconsiderei as outras variáveis contínuas pois não encontrei variáveis com força no modelo, como por exemplo a variável YEAS_AS_CUSTOMER, segundo gráfico. Como a linha neste gráfico é plana, podemos concluir que esta variável não é boa para a nossa modelagem. 
-  
+
+![alt text](https://github.com/josecypriano/Predicting_Catalog_Demand_Project/blob/master/SCATTERPLOT_AVGNUM_AVGSALE.pdf) 
 
 2.	Explique por que você acredita que seu modelo linear é um bom modelo. Você deve justificar o seu raciocínio usando os resultados estatísticos criados pelo seu modelo de regressão. Para cada variável selecionada, por favor justificar por que cada variável é uma boa opção para o seu modelo, usando os valores-p e valores  R-quadrado produzidos pelo seu modelo.
 
