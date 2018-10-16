@@ -27,10 +27,13 @@ No mínimo, responda à estas perguntas:
 
 1.	Como e por que você selecionou as variáveis de previsão (veja texto suplementar) em seu modelo? Você deve explicar como as variáveis de previsão contínuas que você escolheu têm uma relação linear com a variável-alvo.  Consulte esta lição para ajudar você a explorar seus dados e usar gráficos de dispersão para procurar relações lineares.  Você deve incluir gráficos de dispersão em sua resposta.
 
-Escolhi a variável AVG_NUM_PRODUCTS_PURCHASED para o modelo, pois vemos uma linearidade positiva no gráfico de dispersão, com isso podemos assumir que quanto maior o número em AVG_NUM_PRODUCTS_PURCHASED, maior será nosso número em AVG_SALE_AMOUNT, variável está que queremos prever. Desconsiderei as outras variáveis contínuas pois não encontrei variáveis com força no modelo, como por exemplo a variável YEAS_AS_CUSTOMER, segundo gráfico. Como a linha neste gráfico é plana, podemos concluir que esta variável não é boa para a nossa modelagem. 
+Escolhi a variável AVG_NUM_PRODUCTS_PURCHASED para o modelo, pois vemos uma linearidade positiva no gráfico de dispersão, com isso podemos assumir que quanto maior o número em AVG_NUM_PRODUCTS_PURCHASED, maior será nosso número em AVG_SALE_AMOUNT, variável está que queremos prever.
 
 ![1st chart](https://user-images.githubusercontent.com/34245933/47035312-1386f280-d150-11e8-9044-e05bfdfa7571.jpeg)
 
+ Desconsiderei as outras variáveis contínuas pois não encontrei variáveis com força no modelo, como por exemplo a variável YEAS_AS_CUSTOMER, segundo gráfico. Como a linha neste gráfico é plana, podemos concluir que esta variável não é boa para a nossa modelagem.
+ 
+![2nd chart](https://user-images.githubusercontent.com/34245933/47035399-4b8e3580-d150-11e8-950d-5fe4284ee55a.jpg)
 
 2.	Explique por que você acredita que seu modelo linear é um bom modelo. Você deve justificar o seu raciocínio usando os resultados estatísticos criados pelo seu modelo de regressão. Para cada variável selecionada, por favor justificar por que cada variável é uma boa opção para o seu modelo, usando os valores-p e valores  R-quadrado produzidos pelo seu modelo.
 
