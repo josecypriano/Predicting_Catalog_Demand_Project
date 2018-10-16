@@ -6,7 +6,8 @@ Faça o download para poder editar
 Projeto 1: Prevendo Demanda de um Catálogo
 Complete cada seção. Quando estiver pronto, salve o arquivo como um documento PDF e envie-o aqui:  https://classroom.udacity.com/nanodegrees/nd008/parts/c0b53068-1239-4f01-82bf-24886872f48e/project
  
-Passo 1: Compreensão do Negócio e dos Dados
+# Passo 1: Compreensão do Negócio e dos Dados
+ 
 Fornecer uma explicação das decisões importantes que precisam ser feitas. (limite de 500 palavras)
 Decisões Chaves:
 Responda estas perguntas
@@ -18,7 +19,9 @@ Precisamos saber se seguir com a opção de enviar o catálogo para os novos cli
 2.	Que dados são necessários para subsidiar essas decisões??
 
 Neste caso, precisamos de dados históricos da performance dos nossos clientes, devemos ter algumas variáveis essenciais para a construção do modelo, por exemplo o Valor Médio de Vendas, pois a partir dessa variável vamos treinar nosso modelo para usá-lo na nossa base de dados que será feita a previsão. Além disso precisamos de outras variáveis para deixar o nosso modelo mais ajustado e encorpado.
-Passo 2: Análise, modelagem e validação
+
+# Passo 2: Análise, Modelagem e Validação
+
 Forneça uma descrição de como você configurou o seu modelo de regressão linear, quais as variáveis usadas e o por quê, assim como os resultados do modelo. Visualizações são incentivadas. (limite de 500 palavras)
 
 Importante: Use o p1-customers.xlsx para treinar o modelo linear.   
@@ -56,7 +59,9 @@ Note que devemos incluir o coeficiente 0 para o type Cash.
 
 Nota: Para os alunos que utilizam outro software que não Alteryx, se você decidir usar Customer Segment como uma das suas variáveis de previsão, por favor, defina o caso base apenas para Credit Card.
  
-Passo 3: Apresentação/Visualização
+ 
+# Passo 3: Apresentação/Visualização 
+
 Use os resultados do modelo para fornecer uma recomendação. (limite de 500 palavras)
 
 No mínimo, responder à estas perguntas:
