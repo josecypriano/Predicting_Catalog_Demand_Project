@@ -40,6 +40,7 @@ Escolhi a variável AVG_NUM_PRODUCTS_PURCHASED para o modelo, pois vemos uma lin
 Neste modelo tentei usar apenas os dados de customers que haviam enviado o Catálogo no ano anterior, porém obtive um R² Ajustado muito baixo, aproximadamente 10%, então desconsiderei essa hipóteses. Depois de escolher as variáveis AVG_NUM_PRODUCTS_PURCHASED e CUSTOMER_SEGEMENT, podemos dizer que o modelo é bom, pois temos um resultado de p-valor inferior à 0.05 e isso mostra evidências que as variáveis escolhidas estão relacionadas com o valor que queremos prever, além disso todas variáveis também têm p-valor inferior à 0.05. 
 Além disso, temos um R² Ajustado muito bom, que explica 0.8366 da variabilidade da variável AVG_SALE_AMOUNT_PREDICIT. Normalmente acima de 0.5 de R², podemos considerar que nossa variabilidade é explicada pelas nossas variáveis.
 
+![1st table](https://user-images.githubusercontent.com/34245933/47035577-c3f4f680-d150-11e8-8ba8-25614a1347d6.jpg)
   
 3.	Qual é a melhor equação de regressão linear com base nos dados disponíveis? Cada coeficiente não deve ter mais de 2 dígitos após o decimal (ex: 1,28)
  
